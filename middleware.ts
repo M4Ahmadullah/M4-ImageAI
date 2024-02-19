@@ -3,7 +3,7 @@ import { authMiddleware } from "@clerk/nextjs";
 
 // allowing endpoints of api
 export default authMiddleware({
-    publicRoutes: ['/api/webhookd/clerk']
+    publicRoutes: ['/api/webhooks/clerk']
 });
 
 export const config = {
